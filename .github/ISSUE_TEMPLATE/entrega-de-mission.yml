@@ -1,0 +1,85 @@
+name: Entrega de Mission
+description: Entregue uma Mission para revisão
+title: "[Entrega] "
+labels: ["entrega", "aguardando-revisao"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de abrir, confira a checklist em [`ENTREGA.md`](../blob/main/ENTREGA.md).
+
+        **Nenhuma credencial, chave ou dado de cliente pode estar commitado.** Entrega com segredo no histórico é reprovada sem revisão de mérito.
+
+  - type: input
+    id: mission
+    attributes:
+      label: Mission
+      description: A pasta do enunciado que você resolveu
+      placeholder: "000-modelo"
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Link do seu repositório
+      placeholder: "https://github.com/seu-usuario/seu-repo"
+    validations:
+      required: true
+
+  - type: input
+    id: commit
+    attributes:
+      label: Commit de referência
+      description: O SHA que congela o que será avaliado. Trabalho posterior a ele não entra nesta revisão.
+      placeholder: "a1b2c3d"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: visibilidade
+    attributes:
+      label: Seu repositório está público?
+      options:
+        - "Sim"
+        - "Não — vou dar acesso a quem revisar"
+    validations:
+      required: true
+
+  - type: textarea
+    id: decisoes
+    attributes:
+      label: Que decisões você tomou, e por quê?
+      description: As escolhas que não eram óbvias. É o que a revisão lê primeiro.
+    validations:
+      required: true
+
+  - type: textarea
+    id: diferente
+    attributes:
+      label: O que você faria diferente com mais tempo?
+      description: Saber o que ficou faltando conta a favor, não contra.
+    validations:
+      required: true
+
+  - type: textarea
+    id: travou
+    attributes:
+      label: Onde você travou?
+      description: Não conta contra você. Ajuda a melhorar o enunciado para quem vem depois.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Li o `CRITERIOS.md` da Mission e conferi cada item
+          required: true
+        - label: Meu README explica o que eu fiz e por quê
+          required: true
+        - label: Dá para reproduzir o resultado
+          required: true
+        - label: Não há credencial, chave, token ou dado de cliente no repositório nem no histórico
+          required: true

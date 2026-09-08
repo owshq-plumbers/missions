@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Dúvida sobre uma Mission
+    url: https://theplumbers.circle.so/c/missions
+    about: Perguntas vão para o espaço Missions da comunidade, não para issues.
+  - name: Erro no enunciado
+    url: https://theplumbers.circle.so/c/feedback-roadmap
+    about: Achou algo errado ou ambíguo no enunciado? Avise em Feedback e Roadmap.
