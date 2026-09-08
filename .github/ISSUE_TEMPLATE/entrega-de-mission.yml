@@ -1,11 +1,13 @@
 name: Entrega de Mission
 description: Entregue uma Mission para revisão
-title: "[Entrega] "
+title: "[Entrega] NNN-nome-da-mission"
 labels: ["entrega", "aguardando-revisao"]
 body:
   - type: markdown
     attributes:
       value: |
+        **Troque `NNN-nome-da-mission` no título** pela Mission que você resolveu. É o que permite achar a sua entrega na lista depois.
+
         Antes de abrir, confira a checklist em [`ENTREGA.md`](../blob/main/ENTREGA.md).
 
         **Nenhuma credencial, chave ou dado de cliente pode estar commitado.** Entrega com segredo no histórico é reprovada sem revisão de mérito.
