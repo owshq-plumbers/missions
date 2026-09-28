@@ -1,0 +1,7 @@
+pedido_id,data_pedido,cliente_id,valor_total,status,cupom,itens,observacao
+PED-00015,2026-08-15,CLI-1002,189.90,pago,,3,Endereço em São Paulo
+PED-00016,2026-08-15,CLI-1007,54.00,criado,,1,Cliente pediu para não ligar
+PED-00017,2026-08-15,CLI-1003,742.35,enviado,PROMO10,6,Entrega expressa - área central
+PED-00018,2026-08-15,CLI-1008,1250.00,entregue,,12,Pedido corporativo com nota fiscal
+PED-00019,2026-08-15,CLI-1004,33.50,cancelado,,1,Cancelado a pedido do usuário
+PED-00020,2026-08-15,CLI-1009,98.70,pago,,2,Trocar cor se possível - avaliação pendente
