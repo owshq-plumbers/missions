@@ -1,0 +1,6 @@
+pedido_id,data_pedido,cliente_id,valor_total,status,cupom,itens,observacao
+PED-00030,2026-08-08,CLI-1016,130.00,pago,,2,
+PED-00031,2026-08-08,CLI-1017,N/A,enviado,,1,Valor não informado pelo parceiro
+PED-00032,2026-08-08,CLI-1018,"1.234,50",pago,,4,Valor em formato brasileiro
+PED-00033,2026-08-08,CLI-1019,89.90,entregue,,três,Quantidade por extenso
+PED-00034,2026-08-08,CLI-1020,"R$ 60,00",pago,,1,Valor com símbolo de moeda
