@@ -22,6 +22,15 @@ body:
       required: true
 
   - type: input
+    id: email
+    attributes:
+      label: Seu e-mail na The Plumbers
+      description: O mesmo e-mail que você usa para entrar na comunidade. É como a revisão liga a entrega ao seu perfil e emite o Evidence Card no seu nome.
+      placeholder: "voce@exemplo.com"
+    validations:
+      required: true
+
+  - type: input
     id: repo
     attributes:
       label: Link do seu repositório
