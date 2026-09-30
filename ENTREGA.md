@@ -4,7 +4,7 @@ A entrega é **uma issue neste repositório**, apontando para o seu.
 
 ## Antes de abrir a issue
 
-- [ ] O seu repositório existe e está acessível para revisão
+- [ ] O seu repositório existe e está **público** (veja abaixo o porquê)
 - [ ] O `README.md` do seu repositório explica **o que você fez e por quê** — não apenas como rodar
 - [ ] Existe uma forma de reproduzir o resultado (comando, script, notebook, `docker compose`, o que for)
 - [ ] Você leu o `CRITERIOS.md` da Mission e checou cada item
@@ -24,9 +24,13 @@ Use o template **Entrega de Mission**. Ele pede:
 | O que você faria diferente com mais tempo | É a parte que mais diz sobre senioridade |
 | Onde você travou | Não conta contra você. Ajuda a melhorar o enunciado |
 
-## Se o seu repositório é privado
+## O seu repositório precisa ser público
 
-Tudo bem. Diga isso na issue e a revisão pede acesso — ou você torna público na hora da entrega. Muita gente prefere só publicar quando está satisfeita com o resultado, e isso é razoável.
+A revisão é **automática**: o agente Reviewer lê o seu repositório direto do GitHub para montar o parecer. Ele lê repositórios **públicos** — um repositório privado na sua conta ele não consegue abrir, e a entrega fica parada sem revisão.
+
+Então deixe o seu repositório **público antes de abrir a issue**. Se você prefere trabalhar em privado enquanto desenvolve, tudo bem — é só tornar público na hora da entrega. É a mesma lógica do enunciado: o critério de avaliação é público (`CRITERIOS.md`), a sua solução também.
+
+> Não quer deixar público de jeito nenhum? Diga isso na issue. A revisão vira **manual** — sem o parecer automático e sem a meta de 72h — e alguém do time pede acesso ao seu repositório.
 
 ## Prazo de retorno
 
