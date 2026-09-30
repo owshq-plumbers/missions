@@ -1,0 +1,10 @@
+{"id": "c01", "pergunta": "Em quantos dias corridos o reembolso é processado?", "tipo": "respondivel", "fatos_esperados": ["7 dias"]}
+{"id": "c02", "pergunta": "Produto digital tem reembolso depois de 30 dias da compra?", "tipo": "respondivel", "fatos_esperados": ["30 dias"]}
+{"id": "c03", "pergunta": "Quantos dias de férias por ano?", "tipo": "respondivel", "fatos_esperados": ["30 dias"]}
+{"id": "c04", "pergunta": "Com quanta antecedência preciso solicitar férias?", "tipo": "respondivel", "fatos_esperados": ["30 dias"]}
+{"id": "c05", "pergunta": "Em quantos períodos posso dividir as férias?", "tipo": "respondivel", "fatos_esperados": ["3 períodos", "14 dias"]}
+{"id": "c06", "pergunta": "Qual o SLA de primeira resposta do suporte?", "tipo": "respondivel", "fatos_esperados": ["8 horas"]}
+{"id": "c07", "pergunta": "Qual o horário de atendimento do suporte?", "tipo": "respondivel", "fatos_esperados": ["9h", "18h"]}
+{"id": "c08", "pergunta": "Qual o valor do vale-refeição?", "tipo": "fora_da_base", "deve_recusar": true}
+{"id": "c09", "pergunta": "Qual a política de home office da empresa?", "tipo": "fora_da_base", "deve_recusar": true}
+{"id": "c10", "pergunta": "Quantos dias de licença-paternidade a empresa oferece?", "tipo": "fora_da_base", "deve_recusar": true}
