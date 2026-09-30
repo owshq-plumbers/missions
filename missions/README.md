@@ -22,4 +22,7 @@ missions/NNN-nome-curto/
 
 | Pasta | Título | Publicada em |
 | -- | -- | -- |
-| `000-modelo` | Modelo de referência (não é Mission real) | — |
+| [`001-arquivo-quebrado`](001-arquivo-quebrado/) | O arquivo que chega quebrado | 2026-09 |
+| [`002-backfill-idempotente`](002-backfill-idempotente/) | Rodar de novo sem estragar | 2026-09 |
+| [`003-o-agente-que-inventa`](003-o-agente-que-inventa/) | O agente que inventa | 2026-09 |
+| [`000-modelo`](000-modelo/) | Modelo de referência (não é Mission real) | — |
