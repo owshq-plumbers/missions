@@ -1,0 +1,7 @@
+pedido_id,data_pedido,cliente_id,valor_total,status,cupom,itens,observacao
+PED-00040,2026-08-12,CLI-1021,200.00,pago,,2,
+PED-00041,2026-08-12,CLI-1022,75.00,enviado,,1,
+PED-00040,2026-08-12,CLI-1021,200.00,pago,,2,Linha repetida idêntica
+PED-00042,2026-08-12,CLI-1023,310.00,entregue,,4,
+PED-00041,2026-08-12,CLI-1022,999.00,cancelado,,9,Mesmo id com valores diferentes
+PED-00043,2026-08-12,CLI-1024,50.00,pago,,1,

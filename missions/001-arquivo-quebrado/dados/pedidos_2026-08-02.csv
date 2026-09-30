@@ -1,0 +1,7 @@
+pedido_id,data_pedido,cliente_id,valor_total,status,cupom,itens,observacao
+PED-00008,2026-08-02,CLI-1007,72.30,enviado,,2,Endereço confirmado por telefone
+PED-00009,2026-08-02,CLI-1002,45.00,pago,VOLTEI15,1,
+PED-00010,2026-08-02,CLI-1008,500.00,entregue,,5,Reembolso não solicitado
+PED-00011,2026-08-02,CLI-1009,18.90,cancelado,,1,
+PED-00012,2026-08-02,CLI-1010,340.00,pago,,4,Observação com acento: São Paulo
+PED-00013,2026-08-02,CLI-1011,127.50,criado,PRIMEIRACOMPRA,2,

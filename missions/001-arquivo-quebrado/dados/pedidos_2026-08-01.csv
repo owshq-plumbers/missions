@@ -1,0 +1,8 @@
+pedido_id,data_pedido,cliente_id,valor_total,status,cupom,itens,observacao
+PED-00001,2026-08-01,CLI-1001,150.00,pago,,2,
+PED-00002,2026-08-01,CLI-1002,89.90,enviado,BEMVINDO10,1,Entrega expressa
+PED-00003,2026-08-01,CLI-1003,320.50,entregue,,4,Cliente pediu nota fiscal
+PED-00004,2026-08-01,CLI-1004,45.00,cancelado,,1,Cancelado a pedido do cliente
+PED-00005,2026-08-01,CLI-1005,210.75,pago,FRETEGRATIS,3,
+PED-00006,2026-08-01,CLI-1001,99.90,criado,,1,Segundo pedido do mesmo cliente
+PED-00007,2026-08-01,CLI-1006,1250.00,pago,,7,Pedido corporativo

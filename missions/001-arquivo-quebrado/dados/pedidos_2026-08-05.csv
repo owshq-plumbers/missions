@@ -1,0 +1,5 @@
+pedido_id,data_pedido,cliente_id,valor_total,cupom,itens,observacao
+PED-00020,2026-08-05,CLI-1012,210.00,,3,
+PED-00021,2026-08-05,CLI-1013,55.00,DESC20,1,Entrega agendada
+PED-00022,2026-08-05,CLI-1014,430.90,,5,
+PED-00023,2026-08-05,CLI-1015,12.00,,1,Item unitário
