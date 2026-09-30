@@ -30,11 +30,14 @@ O que fica privado é o **gabarito** e as **notas de revisão** — pelo mesmo m
 
 ## Missions disponíveis
 
-Ver [`missions/`](missions/).
+Ver [`missions/`](missions/). O número indica ordem de publicação, não dificuldade.
 
-| Mission | Tema | Nível |
+| Mission | Tema | Tempo (faixa honesta) |
 | -- | -- | -- |
-| `000-modelo` | Modelo de referência — não é uma Mission real | — |
+| [`001-arquivo-quebrado`](missions/001-arquivo-quebrado/) | Portão de validação: barrar o arquivo ruim antes da carga | 2–4h |
+| [`002-backfill-idempotente`](missions/002-backfill-idempotente/) | Reprocessar sem medo: backfill idempotente que não duplica | 4–7h |
+| [`003-o-agente-que-inventa`](missions/003-o-agente-que-inventa/) | Harness que mede um agente: fidelidade e alucinação | 8–14h |
+| [`000-modelo`](missions/000-modelo/) | Modelo de referência — não é uma Mission real | — |
 
 ---
 
