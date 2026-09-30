@@ -19,6 +19,7 @@ Use o template **Entrega de Mission**. Ele pede:
 | Campo | Por quê |
 | -- | -- |
 | Mission | Qual enunciado você resolveu |
+| Seu e-mail na The Plumbers | Liga a entrega ao seu perfil e emite o Evidence Card no seu nome. Use o mesmo e-mail com que você entra na comunidade |
 | Link do seu repositório | Onde está o trabalho |
 | Commit de referência | Congela o que será avaliado |
 | O que você faria diferente com mais tempo | É a parte que mais diz sobre senioridade |
