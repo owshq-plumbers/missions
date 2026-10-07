@@ -33,10 +33,20 @@ Então deixe o seu repositório **público antes de abrir a issue**. Se você pr
 
 > Não quer deixar público de jeito nenhum? Diga isso na issue. A revisão vira **manual** — sem o parecer automático e sem a meta de 72h — e alguém do time pede acesso ao seu repositório.
 
+## Não achei você pelo e-mail
+
+Se o e-mail que você colocou na entrega não casar com o seu cadastro na The Plumbers, o Reviewer comenta na própria issue avisando e marca a entrega com a etiqueta `email-nao-encontrado` — ela não recebe veredito até isso ser resolvido. É só **editar a entrega com o e-mail certo** (o mesmo que você usa pra entrar na comunidade) e comentar `/revisar` (veja abaixo) que ela volta pra fila.
+
 ## Prazo de retorno
 
 A meta é **72 horas**. Se passar disso, comente na própria issue.
 
 ## Reentrega
 
-Pode. Corrija, aponte o novo commit num comentário da mesma issue e peça nova revisão. Reentrega não é demérito — o Evidence Card registra a versão aprovada, não o número de tentativas.
+Pode. Corrija o que precisar e comente na mesma issue **`/revisar`** apontando o novo commit — por exemplo:
+
+```
+/revisar https://github.com/seu-usuario/seu-repo/commit/<sha>
+```
+
+O Reviewer pega o commit mais recente, recoloca a entrega na fila e relê no próximo ciclo (até ~15 min), respondendo na própria issue. Reentrega não é demérito — o Evidence Card registra a versão aprovada, não o número de tentativas.
