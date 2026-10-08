@@ -50,3 +50,13 @@ Pode. Corrija o que precisar e comente na mesma issue **`/revisar`** apontando o
 ```
 
 O Reviewer pega o commit mais recente, recoloca a entrega na fila e relê no próximo ciclo (até ~15 min), respondendo na própria issue. Reentrega não é demérito — o Evidence Card registra a versão aprovada, não o número de tentativas.
+
+## Discordou do veredito?
+
+Pode contestar. Comente na mesma issue **`/contestar`** explicando por quê — por exemplo:
+
+```
+/contestar o README explica a decisão de arquitetura e o harness roda com um comando só
+```
+
+Uma **pessoa do time** revisa a contestação (não é o agente de novo) e responde na própria issue. Se proceder, o veredito é corrigido e o Evidence Card é ajustado; se não, você recebe o porquê com calma. Contestar não apaga sua entrega — é a garantia de que um erro do agente não vira nota final.
